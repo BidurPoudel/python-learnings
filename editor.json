@@ -41,7 +41,7 @@
       "tree.indentGuidesStroke": "#ddff005b", 
       "list.dropBackground":"#04395e",
       "list.errorForeground": "#ff0b0b",
-      "list.focusOutline":"#ff0000d1",
+      "list.focusOutline":"#ff0000d1"
       
     },
     "editor.tokenColorCustomizations": {
@@ -57,7 +57,7 @@
             "entity.name.class" 
           ],
           "settings": {
-            "foreground": "#ffffff", 
+            "foreground": "#ffffff"
           
           }
         },
