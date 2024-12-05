@@ -1,0 +1,149 @@
+{
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[python]": {},
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "files.associations": {
+      "*.js": "javascriptreact"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "editor.fontLigatures": true,
+    "chat.editor.fontFamily": "",
+    "editor.accessibilityPageSize": 5,
+    "diffEditor.experimental.showMoves": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.wordWrap": "on",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "css.lint.unknownAtRules": "ignore",
+    "git.openRepositoryInParentFolders": "never",
+    "prisma.showPrismaDataPlatformNotification": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.colorCustomizations": {
+      "editor.findMatchBackground": "#ffffff26",
+      "editor.background": "#000000", 
+      "editor.foreground": "#39ff14", 
+      "editorCursor.foreground": "#ffffff",
+      "editor.lineHighlightBackground": "#1a1a1a",
+      "editor.selectionBackground": "#ff00ff61", 
+      "editorBracketMatch.background": "#ff14913d",
+      "tree.indentGuidesStroke": "#ddff005b", 
+      "list.dropBackground":"#04395e",
+      "list.errorForeground": "#ff0b0b",
+      "list.focusOutline":"#ff0000d1",
+      
+    },
+    "editor.tokenColorCustomizations": {
+      "comments": "#808080", 
+      "keywords": "#39ff14",  
+      "functions": "#ffff00", 
+      "strings": "#ffc014",  
+      "variables": "#ff4500",
+      "textMateRules": [
+        {
+          "scope": [
+            "entity.name.type", 
+            "entity.name.class" 
+          ],
+          "settings": {
+            "foreground": "#ffffff", 
+          
+          }
+        },
+        {
+          "scope": [
+            "keyword.control.import",
+            "keyword.namespace", 
+            "keyword.module"
+          ],
+          "settings": {
+            "foreground": "#00f54d", 
+            "fontStyle": "italic" 
+  
+          }
+        },
+        {
+          "scope": [
+            "meta.annotation.type", 
+            "support.type" 
+          ],
+          "settings": {
+            "foreground": "#e4ff14", 
+            "fontStyle": "italic"           }
+        }
+      ]
+    },
+    "vscode_custom_css.imports": [],
+    "workbench.editor.enablePreview": false,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontVariations": true,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontSize": 18,
+    "editor.cursorWidth": 5,
+    "editor.cursorBlinking": "expand",
+    "editor.find.seedSearchStringFromSelection": "never",
+    "terminal.integrated.fontFamily": "Consolas",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontWeight": "normal",
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "editor.fontWeight": "normal",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "json.schemas": [
+  
+  
+  
+    
+    ],
+    "terminal.integrated.profiles.windows": {
+      "Git Bash": { "path": "C:\\Program Files\\Git\\bin\\bash.exe" }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "background.editorBackgrounds": [],
+    "window.autoDetectColorScheme": true,
+    "emmet.includeLanguages": {
+      "django-html": "html"
+    },
+    "workbench.editorAssociations": {
+      "*.sqlite3": "default"
+    },
+    "explorer.fileNesting.patterns": {
+      "*.ts": "${capture}.js",
+      "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+      "*.jsx": "${capture}.js",
+      "*.tsx": "${capture}.ts",
+      "tsconfig.json": "tsconfig.*.json",
+      "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+      "*.sqlite": "${capture}.${extname}-*",
+      "*.db": "${capture}.${extname}-*",
+      "*.sqlite3": "${capture}.${extname}-*",
+      "*.db3": "${capture}.${extname}-*",
+      "*.sdb": "${capture}.${extname}-*",
+      "*.s3db": "${capture}.${extname}-*"
+    },
+    "workbench.settings.applyToAllProfiles": [
+  
+  
+    
+    ],
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.allowMnemonics": true
+  }
+  
