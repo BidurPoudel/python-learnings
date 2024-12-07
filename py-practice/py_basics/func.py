@@ -24,6 +24,4 @@
 # numb = int(input("Enter any number to find factorials: "))
 # print(f"factorial number of {numb} is {factorials(numb)}")
 
-a = "hello"
-b = "bidur"
-print(a + b)
+# print(str(person))
