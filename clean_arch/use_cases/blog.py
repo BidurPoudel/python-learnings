@@ -8,6 +8,8 @@ class CreateBlog:
         self.db = db
 
     def execute(self, title:str, author: str, content: str):
+        if not title and content:
+            raise ValueError("Title or content is missing")
         blog = Blog(title, content, author)
         self.db.save(blog)
         return blog
