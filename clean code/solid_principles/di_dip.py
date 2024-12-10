@@ -1,10 +1,11 @@
-# when di when inject object of one class to another but we don't make abstract func
+# in di we inject object of one class to another but we don't make abstract func
 #  like this
 
 # class Loggger:
 #     def log(self, message:str):
 #         print(f"Log: {message}")
         
+
 
 # class Service:
 #     def __init__(self,logger:Loggger):
