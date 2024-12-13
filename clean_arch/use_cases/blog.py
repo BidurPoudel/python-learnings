@@ -6,10 +6,10 @@ from infrastructures.db import DB
 
 class CreateBlog:
     def __init__(self, db:DB):
-        self.db = db
+        self.db = db     #di of database
 
     def execute(self, title:str, author: str, content: str):
-        if not title and content:
+        if not title or content:
             raise ValueError("Title or content is missing")
         blog = Blog(title, content, author)
         self.db.save(blog)

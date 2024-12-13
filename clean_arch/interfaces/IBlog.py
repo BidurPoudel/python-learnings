@@ -1,6 +1,7 @@
 # interfaces/cli.py
 class CLI:
     def get_input(self):
+        print("\n------------- Give Inputs -------------")
         title = input("Enter blog title: ")
         content = input("Enter blog content: ")
         author = input("Enter author name: ")

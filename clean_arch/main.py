@@ -9,10 +9,12 @@ def main():
     use_case = CreateBlog(db)
 
     title, content, author = cli.get_input()
-    blog = use_case.execute(title, content, author)
+    show_blog = use_case.execute(title, content, author)
     
-    cli.display_output(blog)
+    cli.display_output(show_blog)
 
 if __name__ == "__main__":
     
     main()
+
+
