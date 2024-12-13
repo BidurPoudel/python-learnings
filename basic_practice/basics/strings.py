@@ -37,3 +37,4 @@ print("hello".upper())  # Output: 'HELLO'
 print("42".zfill(5))  # Output: '00042'
 
 
+# few more to add
